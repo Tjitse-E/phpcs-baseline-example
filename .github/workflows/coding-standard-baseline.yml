@@ -1,0 +1,12 @@
+name: Coding Standard With Baseline
+on:
+  pull_request:
+
+permissions:
+  contents: read
+jobs:
+  coding-standard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Coding Standard Baseline
+        uses: Tjitse-E/github-actions/coding-standard-baseline@fix/phpcs-baseline-action-v3
