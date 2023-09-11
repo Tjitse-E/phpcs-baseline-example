@@ -1,2 +1,4 @@
 .idea
 *~
+phpcs.baseline.xml
+vendor/
